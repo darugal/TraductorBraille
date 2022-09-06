@@ -1,0 +1,142 @@
+header {
+    background-color:#AD793A;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #AD793A;
+    text-align: center;
+    font-size: 40px;
+    font: bold;
+    font-family: Monaco,monospace;
+}
+
+body {
+    background-color: #E5D0AB;
+}
+
+#DTEXT {
+    font-size: 40px;
+    height: 40px;
+    font-family: Monaco,monospace;
+    text-align: center;
+    padding-top: 50px;
+
+}
+/*----------------------- DOT STYLE ------------------- */
+
+#DOT-CONTAINER {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-auto-columns: 100px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.DOT {
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    cursor: default;
+}
+
+#DOT1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+#DOT2 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+#DOT3 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+#DOT4 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+#DOT5 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+#DOT6 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+/*----------------------- DOT STYLE END ------------------- */
+
+
+/*----------------------- BUTTON STYLE ------------------- */
+#BUTTON-CONTAINER {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 30px;
+    grid-auto-columns: 100px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.BUTT {
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    font-family: Monaco,monospace;
+    cursor: default;
+
+}
+
+#BUTT1 {
+    grid-column: 1/1;
+
+}
+
+#BUTT2 {
+    grid-column: 2/2;
+}
+
+#BUTT3 {
+    grid-column: 1/1;
+
+}    
+
+#BUTT4 {
+    grid-column: 2/2;
+
+} 
+/*----------------------- BUTTON STYLE END ------------------- */
+
+
+/*----------------------- ANIMATIONS ------------------- */
+@keyframes buttonpressAN {
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.buttonpress {
+    text-align: center;
+    cursor: default;
+    border-radius: 3px;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    font-family: Monaco,monospace;
+    animation-name: buttonpressAN;
+    animation-duration: 0.2s;
+}
+/*----------------------- ANIMATIONS ------------------- */

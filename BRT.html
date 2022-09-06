@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traductor de Braille</title>
+    <link rel="stylesheet" href="styleBRT.css">
+</head>
+
+<header>
+    Traductor de Braille
+</header>
+
+<body>
+    <div id="DTEXT">
+        TEXT
+    </div>
+
+    <div id="DOT-CONTAINER">
+        <div class="DOT" id="DOT1" onclick="FFF('DOT1')"></div>
+        <div class="DOT" id="DOT2" onclick="FFF('DOT2')"></div>
+        <div class="DOT" id="DOT3" onclick="FFF('DOT3')"></div>
+        <div class="DOT" id="DOT4" onclick="FFF('DOT4')"></div>
+        <div class="DOT" id="DOT5" onclick="FFF('DOT5')"></div>
+        <div class="DOT" id="DOT6" onclick="FFF('DOT6')"></div>
+    </div>
+
+    <div id="BUTTON-CONTAINER">
+        <div class="BUTT" id="BUTT1" onclick="ADD_LETTER()" > ENTER </div>
+        <div class="BUTT" id="BUTT2" onclick="ADD_SPACE()"> SPACE </div>
+        <div class="BUTT" id="BUTT3" onclick="DELETE()" > DELETE </div>
+        <div class="BUTT" id="BUTT4" onclick="CLEAR()"> CLEAR </div>
+    </div>
+
+    <script src="scriptBRT.js" defer></script>
+</body>
+</html>
